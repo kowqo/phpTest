@@ -29,4 +29,6 @@ Route::get("hello", function () {
 Route::get("aqq", function () {
     return "aaa";
 });
-
+Route::get("character",function (){
+   return ['John'=>"Lennon",'asd1'=>"sadad",'asd2'=>"sadad",'asd3'=>"sadad"];
+});
